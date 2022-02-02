@@ -5,7 +5,6 @@ using UnityEngine;
 public class TrackClass 
 {
     public string trackName;
-    public string Genre;
     public string information;
     public AudioClip audioClip;
 }

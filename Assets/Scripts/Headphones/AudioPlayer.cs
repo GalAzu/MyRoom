@@ -12,6 +12,7 @@ public class AudioPlayer : MonoBehaviour
     public static AudioPlayer instance;
     [SerializeField]
     public static int trackID;
+    [SerializeField]private float volControlRate;
     private void UpdateAudioPlayer(string name , int id)
     {
         
@@ -54,5 +55,8 @@ public class AudioPlayer : MonoBehaviour
         songPlayed = audioSource.clip.name;
         PlayerController.instance.ReduceCoinsOnPlay();
     }
+    public void MuteAudio() => audioSource.mute = !audioSource.mute;
+    public void LowerVolume() => audioSource.volume -= volControlRate;
+    public void RaiseVolume() => audioSource.volume += volControlRate;
 }
 

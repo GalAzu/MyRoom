@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     //Objects in room
     public void OpenCloseBook()
     {
+        print("openClose");
         if (book.activeSelf == false)
             book.SetActive(true);
         else book.SetActive(false);

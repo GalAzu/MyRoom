@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{32C3BDE6-E125-3128-82C1-25D0441455A3}</ProjectGuid>
+    <ProjectGuid>{16EC1C5D-FFA1-FF2E-A578-F10CB5401F9B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,11 +56,14 @@
     <Compile Include="Assets\Scripts\Player_Game\GameManager.cs" />
     <Compile Include="Assets\Scripts\Headphones\AudioPlayer.cs" />
     <Compile Include="Assets\Scripts\Book\Book.cs" />
+    <Compile Include="Assets\Playstation.cs" />
     <Compile Include="Assets\Scripts\Book\PageClass.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Headphones\Track.cs" />
     <Compile Include="Assets\Scripts\Headphones\TrackClass.cs" />
-    <Compile Include="Assets\Playstation.cs" />
+    <Compile Include="Assets\Compter.cs" />
+    <Compile Include="Assets\Software.cs" />
+    <Compile Include="Assets\button_.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
